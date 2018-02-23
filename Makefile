@@ -3,6 +3,6 @@ build:
 	zip hnlists.zip manifest.json *.js *.png
 
 clean:
-	rm *.zip
+	rm -f *.zip
 
 .PHONY: clean build
