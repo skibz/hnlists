@@ -1,5 +1,8 @@
 
 build:
-	zip hnlinks.zip manifest.json hnlinks.js *.png
+	zip hnlists.zip manifest.json *.js *.png
 
-.PHONY: build
+clean:
+	rm *.zip
+
+.PHONY: clean build
