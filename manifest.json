@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "hnlinks",
-  "short_name": "hnlinks",
-  "description": "Adds a select menu allowing you to navigate to undocumented Hacker News pages",
-  "version": "0.0.2",
+  "name": "HN Lists",
+  "short_name": "hnlists",
+  "description": "adds navbar links to pages from news.ycombinator.com/lists",
+  "version": "0.0.3",
   "author": "Ant Cosentino",
-  "homepage_url": "https://github.com/skibz/hnlinks",
+  "homepage_url": "https://github.com/skibz/hnlists",
   "content_scripts": [
     {
       "matches": ["https://news.ycombinator.com/*"],
-      "js": ["hnlinks.js"]
+      "js": ["hnlists.js"]
     }
   ],
   "icons": {
