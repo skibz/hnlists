@@ -1,8 +1,9 @@
 
-# hnlinks
+# hnlists
 
-> adds a select menu allowing you to navigate to undocumented Hacker News pages
+> adds navbar links to pages from news.ycombinator.com/lists
 
-this extension was inspired by [hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented)
+downloads:
 
-you can download this extension for [firefox](https://addons.mozilla.org/en-US/firefox/addon/hnlinks/) and [chrome](https://chrome.google.com/webstore/detail/hnlinks/ocmmphbmpogonjeohjiapdgbdbpnilbl)
+* [firefox](https://addons.mozilla.org/en-US/firefox/addon/hnlists)
+* [chrome](https://chrome.google.com/webstore/detail/hnlinks/ocmmphbmpogonjeohjiapdgbdbpnilbl)
