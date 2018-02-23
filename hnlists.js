@@ -22,7 +22,7 @@ pagetop.appendChild(function() {
   }
   hnlinks.appendChild(function() {
     var prompt = document.createElement('option')
-    prompt.textContent = 'Choose a page'
+    prompt.textContent = 'Lists'
     prompt.value = 'ignoreme'
     return prompt
   }())
