@@ -3,7 +3,7 @@
   "name": "hnlinks",
   "short_name": "hnlinks",
   "description": "Adds a select menu allowing you to navigate to undocumented Hacker News pages",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Ant Cosentino",
   "homepage_url": "https://github.com/skibz/hnlinks",
   "content_scripts": [
@@ -11,5 +11,10 @@
       "matches": ["https://news.ycombinator.com/*"],
       "js": ["hnlinks.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon128.png"
+  }
 }
