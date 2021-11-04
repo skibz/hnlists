@@ -10,6 +10,11 @@
 
 ## todo
 
+* safari web extension
 * `/classic`
 * `/over?points`
 * `/front` with input[type=date]
+* `/pool`
+* `/invited`
+* `/launches`
+* `/submitted?id=whoishiring`
