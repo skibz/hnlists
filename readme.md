@@ -8,13 +8,13 @@
 * [firefox](https://addons.mozilla.org/en-US/firefox/addon/hnlists)
 * [chrome](https://chrome.google.com/webstore/detail/hnlinks/ocmmphbmpogonjeohjiapdgbdbpnilbl)
 
-## todo
+## todos
 
 * safari web extension
-* `/classic`
-* `/over?points`
-* `/front` with input[type=date]
-* `/pool`
-* `/invited`
-* `/launches`
-* `/submitted?id=whoishiring`
+* [x] `/classic`
+* [x] `/over?points` with `input[type=number]`
+* [x] `/front` with `input[type=date]`
+* [x] `/pool`
+* [x] `/invited`
+* [x] `/launches`
+* [x] `/submitted?id=whoishiring`

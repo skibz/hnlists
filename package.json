@@ -1,0 +1,8 @@
+{
+  "name": "hnlists",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "uglify-js": "^3.14.4"
+  }
+}
