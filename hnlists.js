@@ -17,7 +17,9 @@
     return (new URLSearchParams(location.search)).get(key)
   }
 
-  var topcolor = hnmain.querySelector('[bgcolor]').getAttribute('bgcolor')
+  var topcolor = (
+    document.getElementById('hnmain')
+  ).querySelector('[bgcolor]').getAttribute('bgcolor')
   var rgb = parseInt(topcolor.slice(1), 16)
   var brightness = (
     (0.2126 * ((rgb >> 16) & 0xff)) +
@@ -135,7 +137,7 @@
 
   var input = document.createElement('input')
   input.type = type
-  input.value = querystring_value(querystring_key)
+  input.value = querystring_value(querystring_key) || today()
   input.max = max
   input.min = min
   input.style.color = color
