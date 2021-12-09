@@ -1,5 +1,4 @@
 {
-  "manifest_version": 3,
   "name": "HN Lists",
   "short_name": "hnlists",
   "description": "adds navbar links to pages from news.ycombinator.com/lists",
@@ -9,7 +8,7 @@
   "content_scripts": [
     {
       "matches": ["https://news.ycombinator.com/*"],
-      "js": ["hnlists.js"]
+      "js": ["hnlists.min.js"]
     }
   ],
   "icons": {

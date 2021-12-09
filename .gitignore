@@ -1,4 +1,6 @@
 
+manifest.json
 *.zip
 *.DS_Store
+*.min.js
 node_modules/
