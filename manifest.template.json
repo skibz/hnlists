@@ -2,7 +2,7 @@
   "name": "HN Lists",
   "short_name": "hnlists",
   "description": "adds navbar links to pages from news.ycombinator.com/lists",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Ant Cosentino",
   "homepage_url": "https://github.com/skibz/hnlists",
   "content_scripts": [
