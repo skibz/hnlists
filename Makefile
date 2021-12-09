@@ -1,15 +1,13 @@
 
-hnlists-firefox.zip: hnlists.min.js *.png
-	MANIFEST=$$(jq -c -M '. += {"manifest_version": 2}' < manifest.template.json) && \
-	echo $$MANIFEST > manifest.json
+lookup.hnlists-firefox.zip := 2
+lookup.hnlists-chrome.zip := 3
+
+hnlists.zip: hnlists.min.js *.png
+	MANIFEST=$$(jq -c -M '. += {"manifest_version": $(lookup.$@)}' < manifest.template.json) && \
+	echo $$MANIFEST > manifest.json && \
 	zip $@ $^ manifest.json
 
-hnlists-chrome.zip: hnlists.min.js *.png
-	MANIFEST=$$(jq -c -M '. += {"manifest_version": 3}' < manifest.template.json) && \
-	echo $$MANIFEST > manifest.json
-	zip $@ $^ manifest.json
-
-hnlists.min.js: *.js
+hnlists.min.js: hnlists.js
 	npx uglifyjs --compress --mangle < $^ > $@
 
 .PHONY: clean
