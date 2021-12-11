@@ -10,7 +10,8 @@
 
 ## todos
 
-* safari web extension
+* [ ] safari web extension
+* [ ] `/asknew`
 * [x] `/classic`
 * [x] `/over?points` with `input[type=number]`
 * [x] `/front` with `input[type=date]`
